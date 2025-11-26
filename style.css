@@ -264,3 +264,28 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
+/* ----------- iPhone / Mobile Fixes ----------- */
+@media (max-width: 480px) {
+
+  #envelope {
+    width: 90%;
+    max-width: 300px;
+    aspect-ratio: 280 / 180;
+    margin-top: 100px;
+  }
+
+  .envlope-wrapper {
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hearts {
+    top: 60%;
+  }
+
+}
+
+
